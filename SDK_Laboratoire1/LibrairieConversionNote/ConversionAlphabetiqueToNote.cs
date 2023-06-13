@@ -6,6 +6,8 @@
         {
             var returnStr = "Entree Invalide";
 
+
+            NoteAlphabetique = NoteAlphabetique.ToUpper().Trim ();
             switch (NoteAlphabetique)
             {
                 case "A":
